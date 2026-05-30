@@ -1,146 +1,263 @@
-vaga = """Vaga: Desenvolvedor Backend Python Sênior
+vaga = """Descrição da vaga - Desenvolvedor Backend
+Júnior
+Local São Paulo — SP Avenida Paulista 100% presencial
+Salário R$ 3.000 a R$ 4.000
+Sobre a vaga
+A empresa busca alguém com vontade de aprender, boa lógica de programação e interesse
+em crescer na área de tecnologia.
 
-Descrição:
-Estamos buscando um desenvolvedor backend experiente para atuar na construção de APIs escaláveis e sistemas distribuídos.
+Requisitos
+● Conhecimento básico em Java ou Python
+● Noções de banco de dados SQL
+● Conhecimento básico de Git
+● Lógica de programação
+● Facilidade para aprender
 
-Requisitos obrigatórios:
-- Python avançado
-- Experiência com frameworks backend (Django, FastAPI ou Flask)
-- Desenvolvimento de APIs REST
-- Experiência com bancos de dados relacionais (PostgreSQL, MySQL)
-- Conhecimento em Docker
-- Experiência mínima de 4 anos como desenvolvedor backend
-- Versionamento com Git
+Diferenciais
+● Projetos pessoais
+● Conhecimento em API REST
+● Noções de Docker
+● Cursos na área de programação
 
-Diferenciais:
-- Experiência com microsserviços
-- Conhecimento em AWS (EC2, S3, RDS)
-- CI/CD (GitHub Actions, Jenkins)
-- Testes automatizads (pytest)
+Atividades
+● Auxiliar no desenvolvimento backend
+● Corrigir bugs simples
+● Dar suporte em sistemas internos
+● Participar de reuniões da equipe
 
-Formação:
-- Ensino superior completo em Ciência da Computação, Engenharia de Software ou áreas correlatas"""
+Perfil desejado
+● Organizado
+● Comunicativo
+● Proativo
+● Interesse em tecnologia"""
 
 curriculos = [
-    """Nome: João Silva
+    """Lucas Andrade Ferreira
+Idade: 24 anos Cidade: Campinas - SP
+Objetivo
+Desenvolvedor Backend Júnior
+Resumo Profissional
+Profissional focado em desenvolvimento backend, com perfil analítico e organizado.
+Facilidade em documentação, lógica de programação e resolução de problemas.
+Formação
+Análise e Desenvolvimento de Sistemas — FATEC Campinas Conclusão prevista: Dez/2026
+Conhecimentos
+● Python
+● Java
+● SQL
+● Git
+● APIs REST
+● Docker básico
+Projetos
+● Sistema de controle de estoque em Python
+● API REST para cadastro de usuários
+● Automação de relatórios utilizando scripts Python
+Qualidades
+● Organização
+● Pensamento lógico
+● Facilidade para aprender
+● Boa comunicação técnica
+Idiomas
+Inglês intermediário""",
 
-Resumo:
-Desenvolvedor Backend com mais de 6 anos de experiência focado em Python e arquitetura de APIs escaláveis.
+    """Amanda Vitória Souza
+Idade: 17 anos Cidade: Osasco - SP
+Objetivo
+Quero uma oportunidade na area de tecnologia para aprender mais e crescer
+profissionalmente.
+Formação
+Ensino Médio — Cursando Curso de Informática Básica — Fundação Bradesco
+Conhecimentos
+● Word
+● Excel
+● HTML basico
+● Canva
+Sobre mim
+Sou uma pessoa muito dedicada e esforçada, gosto bastante de tecnologia e sempre tento
+aprender coisas novas. Tenho facilidade em trabalhar em equipe e gosto de ajudar as
+pessoas.
+Qualidades
+● Comunicativa
+● Criativa
+● Aprendo rapido
+● Responsavel
+Observações
+Nunca trabalhei registrado mas ja ajudei meu tio na loja dele mexendo no computador e nas
+redes sociais.""",
 
-Experiência Profissional:
-- Senior Backend Developer - Tech Solutions (2020 - Atual)
-  - Desenvolvimento de APIs REST com Django e FastAPI
-  - Implementação de microsserviços
-  - Integração com AWS (S3, EC2, RDS)
-  - Criação de pipelines CI/CD com GitHub Actions
+    """Rafael Mendes Oliveira
+Idade: 21 anos Cidade: São Paulo - SP
+Objetivo
+Desenvolvedor Full Stack Júnior
+Resumo
+Desenvolvedor autodidata com foco em aplicações web modernas. Forte interesse em
+backend, banco de dados e arquitetura de sistemas.
+Tecnologias
+● React
+● Node.js
+● TypeScript
+● PostgreSQL
+● MongoDB
+● GitHub
+● Linux
+Projetos
+● Plataforma de agendamento online
+● Sistema de autenticação JWT
+● Dashboard administrativo em React
+Experiência
+Freelancer — Desenvolvimento de Sites 2024 - Atual
+Qualidades
+● Proatividade
+● Autonomia
+● Curiosidade técnica
+● Perfil investigativo""",
 
-- Backend Developer - DevCorp (2018 - 2020)
-  - Desenvolvimento em Python com Flask
-  - Modelagem de banco de dados PostgreSQL
-  - Uso de Docker em ambiente de desenvolvimento
+    """Carlos Henrique Batista
+Idade: 29 anos Cidade: Guarulhos - SP
+Objetivo
+Entrar na área de tecnologia e conseguir minha primeira oportunidade.
+Formação
+Tecnólogo em Gestão de TI — EAD Conclusão prevista: 2027
+Experiências
+Auxiliar Administrativo — 5 anos Atendimento ao cliente e organização de planilhas.
+Conhecimentos
+● Excel
+● PowerPoint
+● Noções de HTML
+● Suporte técnico básico
+Sobre mim
+Sempre gostei muito de computadores e tecnologia, comecei a estudar programação
+recentemente e venho tentando migrar de área.
+Qualidades
+● Paciência
+● Comunicação
+● Trabalho em equipe
+● Responsabilidade""",
 
-Skills:
-Python, Django, FastAPI, Flask, PostgreSQL, Docker, AWS, Git, CI/CD, Pytest
+    """Eduardo Kimura
+Idade: 26 anos Cidade: São Bernardo do Campo - SP
+Objetivo
+Backend Developer Jr.
+Skills
+● Java
+● Spring Boot
+● MySQL
+● Docker
+● AWS básico
+● Linux
+● APIs REST
+● JWT
+Projetos
+Microserviço de autenticação. Sistema bancário simples utilizando Java. Deploy local
+utilizando Docker.
+Formação
+Ciência da Computação — Universidade Federal
+Observações
+Prefiro ambientes técnicos e focados em produtividade.
+Qualidades
+● Raciocínio lógico
+● Concentração
+● Disciplina""",
 
-Educação:
-Bacharel em Ciência da Computação - USP""",
+    """Bianca Lopes Martins
+Idade: 25 anos Cidade: Santo André - SP
+Objetivo
+UX/UI Designer Júnior
+Formação
+Design Gráfico — Universidade Anhembi Morumbi
+Ferramentas
+● Figma
+● Photoshop
+● Illustrator
+● Canva
+● Noções de HTML/CSS
+Experiência
+Social Media Freelancer Criação de artes para pequenos negócios.
+Sobre mim
+Tenho perfil criativo, gosto de resolver problemas através de design e melhorar experiências
+digitais.
+Qualidades
+● Criatividade
+● Empatia
+● Organização visual
+● Comunicação""",
 
-    """Nome: Maria Souza
-
-Resumo:
-Desenvolvedora Frontend com experiência em interfaces modernas e UX.
-
-Experiência Profissional:
-- Frontend Developer - WebStudio (2021 - Atual)
-  - Desenvolvimento com React.js
-  - Criação de interfaces responsivas
-  - Integração com APIs REST
-
-- Estágio em Desenvolvimento Web (2020 - 2021)
-  - HTML, CSS, JavaScript
-
-Skills:
-HTML, CSS, JavaScript, React, Figma
-
-Educação:
-Tecnólogo em Análise e Desenvolvimento de Sistemas""",
-
-    """Nome: Carlos Lima
-
-Resumo:
-Cientista de Dados com experiência em análise e construção de modelos preditivos.
-
-Experiência Profissional:
-- Data Scientist - DataCorp (2021 - Atual)
-  - Desenvolvimento de modelos de machine learning
-  - Processamento de dados com Pandas
-  - APIs simples com Flask
-
-- Data Analyst (2019 - 2021)
-  - SQL e visualização de dados
-
-Skills:
-Python, Pandas, Scikit-learn, SQL, Flask
-
-Educação:
-Mestrado em Ciência de Dados""",
-
-    """Nome: Rafael Oliveira
-
-Resumo:
-Desenvolvedor Backend com 3 anos de experiência em sistemas web.
-
-Experiência Profissional:
-- Backend Developer - StartupX (2021 - Atual)
-  - Desenvolvimento de APIs REST com FastAPI
-  - Banco de dados PostgreSQL
-  - Docker para ambiente local
-
-- Estágio em Desenvolvimento (2020 - 2021)
-  - Suporte em sistemas internos
-
-Skills:
-Python, FastAPI, PostgreSQL, Docker, Git
-
-Educação:
-Bacharel em Sistemas de Informação""",
-
-    """Nome: Fernanda Costa
-
-Resumo:
-Pesquisadora e desenvolvedora com forte base acadêmica e experiência em sistemas distribuídos.
-
-Experiência Profissional:
-- Pesquisadora em Sistemas Distribuídos - Universidade (2020 - Atual)
-  - Desenvolvimento em Python
-  - Simulação de sistemas distribuídos
-  - Publicação de artigos científicos
-
-- Software Engineer (2018 - 2020)
-  - Desenvolvimento backend com Django
-  - APIs REST
-  - PostgreSQL
-
-Skills:
-Python, Django, Sistemas Distribuídos, PostgreSQL, Git
-
-Educação:
-Doutorado em Ciência da Computação""",
-
-    """Nome: Bruno Martins
-
-Resumo:
-Desenvolvedor backend com foco em Java e sistemas corporativos.
-
-Experiência Profissional:
-- Backend Developer - EnterpriseTech (2019 - Atual)
-  - Desenvolvimento com Java e Spring Boot
-  - APIs REST
-  - Integração com bancos Oracle
-
-Skills:
-Java, Spring Boot, SQL, REST APIs
-
-Educação:
-Bacharel em Engenharia de Software"""
+    """Vinicius Almeida Rocha
+Idade: 23 anos Cidade: São Paulo - SP
+Objetivo
+Desenvolvedor Frontend Júnior
+Resumo
+Profissional extremamente focado em performance e evolução rápida. Busco empresas com
+cultura forte de tecnologia.
+Tecnologias
+● React
+● Next.js
+● Tailwind
+● JavaScript
+● TypeScript
+Projetos
+● Clone do Spotify
+● Dashboard financeiro responsivo
+● Landing pages otimizadas
+Qualidades
+● Competitividade
+● Liderança
+● Aprendizado acelerado
+● Alta produtividade
+Diferenciais
+Participo frequentemente de hackathons e desafios online.""",
+    """Jeferson Silva
+Idade: 20 anos Cidade: Itaquera - SP
+Objetivo
+vaga de programador
+cursos
+curso de python udemy curso de html curso de excel
+experiencia
+ajudava meu amigo a fazer site
+conhecimentos
+python html css javascript
+sobre mim
+sou esforçado e quero uma oportunidade para mostrar meu potencial e crescer junto com a
+empresa.""",
+    """Mariana Torres Albuquerque
+Idade: 27 anos Cidade: Barueri - SP
+Objetivo
+Analista de Dados Júnior
+Formação
+Engenharia de Produção — Mackenzie Pós-graduação em Data Analytics — Cursando
+Ferramentas
+● Power BI
+● SQL
+● Excel Avançado
+● Python para análise de dados
+● Tableau
+Experiência
+Assistente de BI — 2 anos Criação de dashboards e acompanhamento de indicadores.
+Qualidades
+● Organização
+● Visão estratégica
+● Comunicação corporativa
+● Capacidade analítica
+Idiomas
+Inglês avançado""",
+    """Gabriel dos Santos
+Idade: 19 anos Cidade: Carapicuíba - SP
+Objetivo
+Quero trabalhar com TI porque gosto de computador desde pequeno.
+Formação
+Ensino Médio Completo
+Conhecimentos
+● Montagem de computador
+● Formatação
+● Um pouco de Python
+● Jogos online
+Sobre mim
+Sou muito gente boa, aprendo rapido quando alguem me ensina direito e quero uma
+chance.
+Qualidades
+● Esforçado
+● Pontual
+● Educado
+Observações
+Ainda não tenho experiência profissional."""
 ]
