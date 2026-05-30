@@ -1,8 +1,16 @@
 def prompt_extracao(curriculo):
-    return f"""
-Extraia os dados do currículo e retorne JSON válido.
 
-Formato:
+    return f"""
+Você é um sistema de extração de currículos.
+
+Extraia as informações do currículo
+e retorne SOMENTE JSON válido.
+
+NÃO explique nada.
+NÃO escreva texto adicional.
+NÃO use markdown.
+
+Formato obrigatório:
 
 {{
   "nome": "",
@@ -11,18 +19,27 @@ Formato:
   "educacao": []
 }}
 
+Regras:
+- skills deve ser lista
+- educacao deve ser lista
+- anos_experiencia deve ser número inteiro
+
 Currículo:
 {curriculo}
 """
 
 
 def prompt_avaliacao(vaga, curriculo_json):
+
     return f"""
-Você é um avaliador de currículos.
+Você é um recrutador técnico especialista.
 
-Dê notas de 0 a 10.
+Avalie o candidato comparando
+com a vaga.
 
-Retorne SOMENTE JSON:
+Retorne SOMENTE JSON válido.
+
+Formato obrigatório:
 
 {{
   "nota_final": 0,
@@ -32,6 +49,11 @@ Retorne SOMENTE JSON:
   "educacao": 0,
   "justificativa": ""
 }}
+
+Regras:
+- notas entre 0 e 10
+- justificativa curta
+- não escreva fora do JSON
 
 Vaga:
 {vaga}
