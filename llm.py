@@ -3,7 +3,7 @@ import json
 import re
 
 class LLM:
-    def __init__(self, model="mistral"):
+    def __init__(self, model="qwen"):
         self.model = model
         self.url = "http://localhost:11434/api/generate"
 
